@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: rgb(43, 43, 43);
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 88vh;
+            text-align: center;
+            color: white;
+        }
+        main{
+            height: 100px;
+            align-items: center;
+        }
+        main ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .menu-btn{
+            font-family: "Orbitron", serif;
+            width: 260px;
+            height: 40px;
+            color: white;
+            background-image: linear-gradient(to bottom, rgb(0, 173, 173), rgb(39, 39, 39));     
+            border-color: aqua;                                   /* btn-colors: rgb(0, 173, 173), rgb(39, 39, 39) ; button border: aqua*/
+            transition: 160ms;
+            cursor: pointer;
+        }
+        .menu-btn:hover{
+            width: 262px;
+            height: 42px;
+            font-family: "Orbitron", serif;
+            color: white;
+            background-image: linear-gradient(to bottom, rgb(235, 199, 0), rgb(39, 39, 39));     
+            border-color: rgb(255, 217, 0);
+        }
+
+    </style>
+    <title>Wer hat's gesagt?</title>
+</head>
+<body>
+    <h2>Wer hat's gesagt?</h2>
+    <main>
+        <ul>
+            <li><a href="whg.html"><button class="menu-btn start-btn">Starten</button></a></li>
+            <li><a href="whose-quotes.html"><button class="menu-btn info-btn">Wessen Zitate sind drin?</button></a></li>
+        </ul>
+    </main>
+</body>
+</html>
