@@ -773,6 +773,9 @@
         let usedQuotes = [];
         let currentQuote = {};
 
+        // console log number of quotes in-game:
+        console.log(quotes.length);
+        
         function getRandomQuote() {
             if (remainingQuotes.length === 0) {
                 remainingQuotes = [...usedQuotes];
